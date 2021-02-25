@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using all input types</title>
+</head>
+<body>
+    <form action="fileupload.php" method="post" enctype="text/plain">
+
+       <label> <b>Firstname </b> </label>         
+        <input type="text" name="firstname" size="15"/> 
+        <br> <br>  
+         
+        <label><b>Gender </b> </label><br>  
+        <input type="radio" name="gender"/> Male <br>  
+        <input type="radio" name="gender"/> Female <br>  
+        <input type="radio" name="gender"/> Other  
+        <br> <br>  
+
+        <label><b>Phone </b></label>  
+        <input type="tel" name="country code"  value="+91" size="2"/>   
+        <input type="tel" name="phone" size="10"/> 
+        <br> <br>  
+        
+        <label><b>What vechicle you have </b></label> 
+        <br> 
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+         <label for="vehicle3"> I have a boat</label><br>
+         <br> <br>  
+
+         <label for="gsearch"><b>Search Google </b></label>
+        <input type="search" id="gsearch" name="gsearch">
+        <br> <br> 
+
+         <label><b>Email </b></label> 
+        <input type="email" id="email" name="email"/> <br>    
+        <br> <br>  
+
+        <label><b>Password </b></label>
+        <input type="Password" id="pass" name="pass"> <br>   
+        <br> <br> 
+
+        <label><b>Confirm password</b></label>
+        <input type="Password" id="repass" name="repass"> <br> <br> 
+        <br> <br>
+
+        <label for="appt"><b>Select a time </b></label>
+        <input type="time" id="appt" name="appt">
+        <br> <br>
+
+        <label for="homepage"><b>Add your homepage </b></label>
+        <input type="url" id="homepage" name="homepage">  
+        <br> <br>
+
+        <label for="week"><b>Select a week </b></label>
+        <input type="week" id="week" name="week">
+        <br> <br>
+
+        <label for="favcolor"><b>Select your favorite colorv </b></label>
+        <input type="color" id="favcolor" name="favcolor">
+         <br> <br>
+
+         <label for="birthday"><b>Birthday </b></label>
+         <input type="date" id="birthday" name="birthday">
+         <br> <br>
+         
+         <label for="vol"><b>Volume (between 0 and 50) </b></label>
+         <input type="range" id="vol" name="vol" min="0" max="50">
+         <br> <br>
+         
+       <label for="myfile"><b>Select a file </b></label>
+       <input type="file" id="myfile" name="myfile">
+       <br> <br>
+
+       <label for="bdaymonth"><b>Birthday (month and year) </b></label>
+       <input type="month" id="bdaymonth" name="bdaymonth">
+       <br> <br>
+
+       <label for="quantity"><b>Quantity (between 1 and 5) </b></label>
+       <input type="number" id="quantity" name="quantity" min="1" max="5"> 
+       <br> <br>
+
+       <label for="birthdaytime"><b>Birthday (date and time) </b></label>
+       <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+       <br> <br>
+
+       <input type="image" id="image" alt="Login"
+       src="/media/examples/login-button.png">
+       <br> <br>
+
+       <input type="hidden" id="custId" name="custId" value="3487">
+       <br> <br>
+
+        <input type="button" value="Submit"/> 
+        <input type="reset">
+    </form> 
+</body>
+</html>
