@@ -1,0 +1,110 @@
+
+.header{
+    position: sticky;
+    width: 100%;
+}
+.menu-icon{
+    float: left;
+    padding: 10px;
+}
+.search-bar{
+    padding:  auto;
+    float: left;
+    margin-left: 200px;
+    margin-right: 50px;
+    
+}
+
+.right-side-menu{
+    float:right;
+    margin: 0%;
+    padding: 10px;
+}
+
+.logo{
+    float: left;
+}
+
+div a{
+    margin: 10px;
+
+}
+
+input{
+    width: 562px;
+    height: 24px;
+}
+
+.menu-channel-icon{
+    border-radius: 20px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+nav {
+   
+    float: left;
+    width: 10%;
+    padding: 20px;
+    height: 2000px;
+  }
+  
+  
+  nav a {
+    padding: 0;
+  }
+  
+  article {
+    float: right;
+    padding: 10px;
+    width: 80%;
+    height: 300px; 
+  }
+  
+  
+  
+
+  .category-section{
+      margin: 10px;
+      margin-left: 100px;
+      float: left;
+
+  }
+
+  section button{
+      border-radius: 30px;
+  }
+
+  .video{
+      height: 2000px;
+  }
+
+  .video-section{
+      float: left;
+      display: inline;
+      margin: 0;
+  }
+  
+  nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 30 px;
+  }
+
+  .channer-icon{
+      border-radius: 20px;
+      float: left;
+  }
+
+  .video-details a{
+    text-decoration: none;
+    color:black;
+    display: block;
+  }
+
